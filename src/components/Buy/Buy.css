@@ -1,0 +1,340 @@
+
+
+.buy-top{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+	width: 60%;
+	user-select: none;
+
+}
+
+.buy-p {
+	display: flex;
+	align-self: flex-start;
+	user-select: none;
+}
+
+.buy-search{
+	width: 98%;
+	border: 1px solid gray;
+	border-radius: 4px;
+	color: black;
+	height: 30px;
+	position: relative;
+	padding-left: 28px;
+	user-select: none;
+
+}
+
+.buy-search:hover,
+.buy-search:focus {
+  border-color: gray;
+  outline: none;
+}
+
+.icon-search{
+	display: flex;
+	position: relative;
+	bottom: 25px;
+	color: green;
+	width: 22px;
+    left: 7px;
+	user-select: none;
+}
+
+.buy-topInfo h2 {
+  display: flex;
+  align-self: flex-start;
+  padding-bottom: 20px;
+}
+
+.icon-fil{
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  border-top:  1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin: auto;
+  margin-top: 0px;
+	user-select: none;
+
+}
+
+.icon-filters{
+	width: 30px;
+	cursor: pointer;
+	user-select: none;
+
+}
+
+.buy-container{
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	/* background-color: #f0f0f0; */
+	width: 61%;
+	height: auto;
+	margin-top: 10px;
+	gap: 20px;
+	margin-bottom: 40px;
+	user-select: none;
+	/* border: 1px solid green; */
+	margin-bottom: 50px;
+}
+
+
+.buy-filters{
+	width: 33%;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	height: 800px;
+}
+
+.filter-box{
+	border: 1px solid #e0e0e0;
+	height: 60px;
+	cursor: pointer;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.buy-cars{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	/* border: 1px solid red; */
+	height: 100%;
+	/* background-color: #f0f0f0; */
+	gap: 15px;
+}
+
+.buy-items{
+  border: 1px solid #f0f0f0;
+  display: flex;
+  /* flex-direction: row; */
+  width: 100%;
+  height: 230px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+  }
+
+  .img{
+	/* border: 1px solid red; */
+	width: 45%;
+	height: 240px;
+  }
+
+  .img2 {
+	width: 100%; /* Ajustar el ancho al 100% del contenedor */
+	height: 96%; /* Establecer una altura fija o ajustar según tus necesidades */
+	object-fit: cover; /* Hace que la imagen se ajuste manteniendo su relación de aspecto y cubriendo el contenedor */
+	object-position: center; /* Centrar la imagen horizontal y verticalmente dentro del contenedor */
+  }
+
+  .description{
+	/* border: 1px solid blue; */
+	width: 55%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+  }
+
+  .price-description{
+	width: 100%;
+	height: 100%;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+  }
+
+  .arriba{
+	width: 100%;
+	height: 25%;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: row;
+  }
+
+  .used{
+	width: 100%;
+	/* border: 1px solid red; */
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 10px;
+  }
+
+  .saved{
+	width: 100%;
+	height: 100%;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  .save-p{
+	margin-right: 30px;
+  }
+
+  .saveLogo{
+	margin-top: 18px;
+	margin-right: 5px;
+ }
+
+  .medio{
+	width: 100%;
+	height: 40%;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: flex-start;
+  }
+
+  .car-description{
+	margin-top: 10px;
+	margin-left: 10px;
+  }
+
+  .abajo{
+	width: 100%;
+	height: 100%;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: flex-start;
+	
+  }
+
+  .available{
+	width: 79%;
+	height: 40%;
+	margin: auto;
+	border-radius: 6px;
+	/* background-color: #FF3860; */
+	background-color: #FF3860;
+	border: 1px solid #FF3860;
+    color: white;
+  }
+
+  
+
+  .abajo span {
+	margin-right: 10px;
+  }
+
+  .primary-price{
+	margin-top: 10px;
+	font-size: 24px;
+	margin-left: 10px;
+  }
+
+  .secondary-price{
+	margin-top: 22px;
+	font-size: 12px;
+  }
+
+
+  .check-description{
+	width: 100%;
+	height: 60%;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: row;
+  }
+
+  .check1{
+	width: 100%;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: flex-start;
+	height: 100%;
+	margin-left: 10px;
+	border-top: 1px solid  #f0f0f0;
+	border-right: 1px solid  #f0f0f0;
+	flex-direction: column;
+  }
+
+  .estrellas{
+   display: flex;
+   justify-content: flex-start;
+  }
+
+
+  .check2{
+	width: 100%;
+	/* border: 1px solid red; */
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	border-top: 1px solid  #f0f0f0;
+  }
+
+.row-container {
+  display: flex;
+  justify-content: center; /* Align the row horizontally */
+  gap: 10px;
+  margin-left: 240px;
+ position: relative;
+ bottom: 35px;
+ user-select: none;
+}
+  
+.row {
+  display: flex;
+  justify-content: center; /* Align the array elements horizontally */
+  align-items: center; /* Center the content vertically */
+/*  border: 1px solid lightgrey;*/
+/*  border-radius: 50%;  */
+  width: 7px; 
+  height: 8px;
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.row:hover,
+.row:hover p {
+ 
+  cursor: pointer;
+  
+}
+
+.expanded{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	/* background-color: #f0f0f0; */
+	border: 1px solid #e0e0e0;
+}
+
+
+.clicked {
+	transition: transform 0.3s;
+	transform: rotate(180deg);
+}
+
+  .clicked2 {
+	transition: transform 0.3s;
+  }
+
+ 
+  .infoLogo{
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #E6F7FF;
+	padding: 5px; /* Opcional, ajusta el padding según tus necesidades */
+	margin-top: 7px;
+  }
+
+  .star-rating {
+	font-size: 24px; /* Adjust the size of the stars */
+	color: gold; /* Set the color of the filled stars */
+  }
+  
+  .star {
+	cursor: pointer;
+  }

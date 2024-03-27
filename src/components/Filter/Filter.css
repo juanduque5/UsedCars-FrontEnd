@@ -1,0 +1,111 @@
+.container2 {
+  border: 1px solid white;
+  width: 100%;
+  max-width: 850px;
+  margin: auto;
+  height: 220px;
+  position: relative;
+  bottom: 20px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  flex-direction: row;
+  }
+
+.first{
+display: flex ;
+justify-content: space-evenly;
+margin-top: 25px;
+margin-bottom: 20px;
+height: 44px;
+}
+
+.second{
+display: flex ;
+justify-content: space-evenly;
+height: 44px;
+margin-bottom: 13px;
+position: relative;
+right: 9px;
+}
+
+.select{
+width: 250px;
+border-radius: 10px;
+border-color: white;
+background-color: #F0F0ED;
+color: #65655E;
+}
+
+.btn-f{
+  display: flex;
+  justify-content: flex-end;
+ /* position: relative;
+  right: 14px;*/
+  margin-right: 27px;
+}
+
+.btn-filter{
+  width: 250px;
+  height: 46px;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  background-color: #FF3860;
+  color: white;
+  font-size: 13px;
+}
+
+
+.input-price {
+  width: 32%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  position: relative;
+  left: 6px;
+
+}
+.input-price input:first-child {
+  margin-right: 2px;
+  background-color: #F0F0ED;
+  height: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 10px;
+  width: 37%;
+}
+
+.input-price input:nth-child(2) {
+  margin-right: 1px;
+  background-color: #F0F0ED;
+  height: 40px;
+  padding-right: 10px;
+  width: 77px;
+  width: 35%;
+}
+
+
+
+input{
+  margin-top: 5px;
+  border: none;
+  
+}
+
+input:focus {
+  outline: none; /* Elimina el contorno al hacer clic */
+  border-color: transparent; /* Establece el color del borde como transparente */
+}
+
+.currency{
+  background-color: #FF3860;
+  padding-top: 8.5px;
+  padding-bottom: 12px;
+  text-align: center;
+  position: relative;
+  right: 1px;
+  padding-right: 10px;
+  padding-left: 6px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  font-size: 1;
+ }

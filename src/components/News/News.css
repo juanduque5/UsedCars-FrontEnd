@@ -1,0 +1,100 @@
+.news-1{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 75%;
+	margin: auto;
+	background: linear-gradient(to top, white, gray, black);	
+}
+
+.news-info{
+	border-bottom: 1px solid black;
+/*	margin-bottom: 40px;*/
+}
+
+
+.news-info > h2{
+	display: flex;
+	align-self: flex-start;
+}
+
+.news-a {
+  text-decoration: none;
+  color: #FF3860;
+}
+
+.news-p {
+  display: flex;
+  align-self: flex-start;
+  color: white;  
+}
+
+
+
+/*Container news red*/
+.container-news{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border: 1px solid red;
+	width: 75%;
+	margin: auto;
+	align-items: space-between;
+	height: 500px;
+	margin-bottom: 80px;
+	gap: 40px;
+	margin-top: 40px;
+}
+
+.big-new{
+	border: 1px solid black;
+	width: 750px;
+	display: flex;
+}
+
+.small-new{
+	border: 1px solid black;
+	display: flex;
+	width: 350px;
+	flex-direction: column;
+}
+
+.small-box{ 
+ border: 1px solid yellow;
+ width: auto;
+ height: 100%;
+ display: flex;
+ justify-content: flex-start;
+}
+
+
+.container-news2{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border: 1px solid red;
+	width: 75%;
+	margin: auto;
+	align-items: space-between;
+	height: 700px;
+	margin-bottom: 10px;
+	gap: 40px;
+	margin-bottom: 50px;
+}
+
+.big-new2{
+	border: 1px solid black;
+	width: 750px;
+	display: flex;
+	flex-wrap: wrap;
+    gap: 5px;
+}
+
+.big-box{
+	border: 1px solid blue;
+    width: 49%;
+   box-sizing: border-box; /* Añade esta propiedad */
+   padding: 10px;
+   display: flex;
+
+}

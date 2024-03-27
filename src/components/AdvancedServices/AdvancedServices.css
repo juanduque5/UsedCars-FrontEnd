@@ -1,0 +1,80 @@
+.container-advanced{
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: center;
+/*	background-color: red;*/
+	width: 100%;
+	max-width: 860px;
+	gap: 17px;
+	position: relative;
+	bottom: 13px;
+	margin-bottom: 20px;
+/*	height: 100%;
+	max-height: 200px;*/
+}
+
+.tittle-advanced{
+	position: relative;
+	bottom: 15px;
+}
+
+
+.items-advanced{
+	width: 215px;
+	padding-bottom: 40px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column; 
+  flex-wrap: wrap;
+}
+
+.items-advanced > h4 {
+	align-self: flex-start;
+	margin-left: 10px;
+}
+
+.items-advanced > p {
+	position: relative;
+	bottom: 30px;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+
+
+
+.icon-advanced1{
+   width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #E6F7FF;
+  padding: 5px; /* Opcional, ajusta el padding según tus necesidades */
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+.icon-advanced2{
+  background-color: #D4F3DC;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.icon-advanced3{
+  background-color: #FFF8E7;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}

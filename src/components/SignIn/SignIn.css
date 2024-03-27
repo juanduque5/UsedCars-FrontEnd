@@ -1,0 +1,103 @@
+.SignIn{
+  color: black;
+/*  background: linear-gradient(45deg, #000000, #FFFFFF, #808080);*/
+  height: 100vh;
+    margin: 0;
+   padding: 0;
+   background-image: url('../../images/loginCar.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.login-container{
+	display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  height: 80%;
+  flex-direction: column;
+}
+
+.login-item{
+	width: 350px;
+  height: auto;
+  background-color: transparent;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 1.0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+form {
+	height: 100%;
+  margin-top: 50px;
+  width: 270px;
+  margin: auto;
+}
+
+input[type=text2], input[type=password2] {
+  width: 100%;
+  padding: auto;
+  margin: 8px 0;
+  height: 42px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=password2]{
+  height: 42px;
+}
+
+/*//#04AA6D*/
+.signin-button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signin-button:hover {
+  opacity: 0.8;
+}
+
+.register-button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  transition: transform 0.4s ease;
+}
+
+.register-button:hover {
+   transform: scale(1.04); 
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+.container-signin > label {
+  font-size: 17px;
+  color: white;
+}

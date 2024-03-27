@@ -1,0 +1,55 @@
+.register{
+	color: black;
+/*	background: linear-gradient(45deg, #000000, #FFFFFF, #808080);*/
+	height: 100vh;
+  	margin: 0;
+ 	 padding: 0;
+ 	 background-image: url('../../images/loginCar.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.register-container{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	align-items: center;
+	height: 92%;
+	flex-direction: column;
+}
+
+
+.register-item{
+	width: 350px;
+	height: auto;
+	background-color: transparent;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1.0);
+	border-radius: 10px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+
+}
+
+form {
+	height: 100%;
+	margin-top: 50px;
+	width: 270px;
+	margin: auto;
+
+}
+
+
+input[type=text3], input[type=password3] {
+  width: 100%;
+  padding: auto;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=password3]{
+	height: 42px;
+}
+

@@ -1,0 +1,29 @@
+//TRY TO REWRITE YOURSELF, YOU GOT THIS
+
+1)
+//Practice objects and how to top map them
+// const state = {
+//   info: {
+//     user1: {
+//       name: 'John',
+//       age: 30,
+//       email: 'john@example.com'
+//     },
+//     user2: {
+//       name: 'Jane',
+//       age: 25,
+//       email: 'jane@example.com'
+//     },
+//     user3: {
+//       name: 'Mike',
+//       age: 35,
+//       email: 'mike@example.com'
+//     }
+//   }
+// };
+
+// Object.values(state.info).map(user => {
+//   console.log(user);
+// });
+
+2)

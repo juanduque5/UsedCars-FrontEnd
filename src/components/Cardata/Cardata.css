@@ -1,0 +1,576 @@
+/* width 60% remember*/
+.Cardata-top{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    width: 75%;
+    height: 300px;
+    /* border: 1px solid red; */
+    margin-bottom: 60px;
+}
+
+.Cardata-top-path{
+    display: flex;
+    align-self: flex-end;
+    width: 60%;
+    height: 15%;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+
+.path{
+    color: #FF3860;
+    text-decoration: none;
+}
+
+.slash{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.make{
+    color: black;
+    text-decoration: none;
+}
+
+/* width 60% remember*/
+.Cardata-half{
+    width: 75%;
+    height: 1100px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.Cardata-half-data{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.data-picture{
+    width: 100%;
+    height: 65%;
+    /* border: 1px solid red; */
+}
+
+.data-normal{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid red; */
+}
+
+.data-normal-make{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.data-normal-make1{
+    width: 50%;
+    /* border: 1px solid #FF3860; */
+    height: auto;
+    display: flex;
+}
+
+.data-normal-make2{
+    width: 50%;
+    /* border: 1px solid #FF3860; */
+    height: auto;
+}
+
+.saveLogo2{
+    display: flex;
+}
+
+.data-normal-price{
+    width: 100%;
+    /* border: 1px solid #FF3860; */
+    height: auto;
+    display: flex;
+}
+
+/* .data-normal-price2{
+    margin-left: 14px;
+} */
+
+
+.data-normal-rating{
+    width: 100%;
+    /* border: 1px solid #FF3860; */
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.star-rating2 {
+	font-size: 24px; /* Adjust the size of the stars */
+	color: gold; /* Set the color of the filled stars */
+    /* margin-left: 14px; */
+  }
+
+.data-normal2{
+    width: 100%;
+    height: 33%;
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .data-name-p{
+    position: relative;
+    top: 10px;
+} */
+
+.data-name{
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+}
+
+.data-dl{
+    display: grid; /* Use grid layout */
+    grid-template-columns: auto 1fr; /* Two columns: auto for dt, 1fr for dd */
+    /* gap: 10px; Add a small gap between dt and dd */
+    /* border: 1px solid red; */
+    font-size: 16px;
+    overflow-wrap: break-word;
+    width: 100%;
+    height: 100%;
+}
+
+.data-dl dt{
+    border-bottom: 1px solid #e6e6e6;
+    /* font-weight: 700; */
+    padding: 9px 9px 9px 0;
+   
+    margin: 0;
+    /* margin-left: 15px; */
+}
+
+.data-dl dd{
+    border-bottom: 1px solid #e6e6e6;
+    /* font-weight: 700; */
+    padding: 9px 0;
+    /* width: 60%; */
+    /* border: 1px solid red; */
+    margin: 0;
+    /* margin-right: 15px; */
+}
+
+
+
+.saveLogo2{
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.data-image{
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+	height: 100%; /* Establecer una altura fija o ajustar según tus necesidades */
+	object-fit: cover; /* Hace que la imagen se ajuste manteniendo su relación de aspecto y cubriendo el contenedor */
+	object-position: center; /* Centrar la imagen horizontal y verticalmente dentro del contenedor */
+}
+
+.Cardata-half-contact{
+    width: 40%;
+    height: 740px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: #e6e6e6; */
+    background-color:  #f0f0f0;
+
+}
+
+.contact-input-title{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.contact-input-number{
+    display: flex;
+    width: 100%;
+    height: 5%;
+    /* border: 1px solid red; */
+}
+
+.contact-input-number > p {
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.contact-input-name{
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    height: 10%;
+}
+
+.contact-input-first{
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+.contact-input-first > input {
+    border: 1px solid gray;
+    width: 100%;
+    margin-right: 2.5px;
+}
+
+.contact-input-last{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.contact-input-last > input {
+    border: 1px solid gray;
+    width: 100%;  
+    margin-left: 2.5px;
+}
+
+.contact-input-first input::placeholder,
+.contact-input-last input::placeholder {
+      font-size: 14px;
+    }
+
+.contact-input-option{
+    /* border: 1px solid red; */
+    height: 6%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-input-option > select{
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.contact-input-comments{
+    /* border: 1px solid red; */
+    height: 170px;
+    margin-top: 20px;
+}
+
+.contact-input-comments > textarea {
+    border: 1px solid gray;
+    width: 98%;
+}
+
+.contact-submit-button{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    height: 50px;
+}
+
+.contact-submit-button > button {
+    height: 100%;
+    border: none;
+    width: 100%;
+    background-color: #FF3860;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-privacy{
+    /* border: 1px solid red; */
+    display: flex;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+}
+
+.contact-privacy > p{
+    text-align: left;
+    font-size: 12px;
+}
+
+
+
+.Cardata-question{
+    width: 75%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin: auto;
+    /* display: flex; */
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.question{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.question-two{
+    width: 45%;
+    /* border: 1px solid red; */
+}
+
+.question-two > img {
+    width: 100%;
+    height: 85%;
+    cursor: pointer;
+    margin-top: 28px;
+}
+
+.question-name{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid  red; */
+    display: flex;
+    font-size: 18px;
+}
+
+.question-text{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid  red; */
+    display: flex; 
+    margin: auto;
+}
+
+
+.question-text-p{
+   display: flex;
+   /* border: 1px solid black; */
+   text-align: left;
+}
+
+.question-button{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid  red; */
+    display: flex;
+}
+
+.question-button-button{
+    height: 70%;
+    width: 48%;
+    margin-top: 10px;
+    border: none;
+    background-color: #FF3860;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Cardata-reviews{
+    width: 75%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.reviews{
+    width: 60%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.reviews-ads{
+    /* border: 1px solid red; */
+    width: 30%;
+    /* height: 100%; */
+}
+
+.reviews-ads > img{
+    width: 130%;
+  
+}
+
+.reviews-name{
+    /* border: 1px solid red; */
+    display: flex;
+    font-size: 18px;
+}
+
+.reviews-rating{
+    font-size: 24px; /* Adjust the size of the stars */
+	color: gold; /* Set the color of the filled stars */
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.reviews-rating-porcentage{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+
+.reviews-rating-porcentage-p{
+    position: relative;
+    bottom: 15px;
+}
+
+.reviews-breakdowns{
+    /* border: 1px solid red; */
+    height: 280px;
+    
+}
+
+.reviews-breakdowns-title{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.reviews-breakdowns-data{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 75%;
+    /* height: 123px; */
+}
+
+.reviews-breakdowns-data-dl{
+    display: grid; /* Use grid layout */
+    grid-template-columns: auto 1fr; /* Two columns: auto for dt, 1fr for dd */
+    /* gap: 10px; Add a small gap between dt and dd */
+    /* border: 1px solid red; */
+    font-size: 16px;
+    overflow-wrap: break-word;
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-breakdowns-data-dl dd{
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0;
+}
+
+.reviews-breakdowns-data-dl dt{
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0;
+}
+
+.reviews-leave{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 15%;
+    display: flex;
+}
+
+.reviews-leave-button{
+    width: 45%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid #FF3860;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.Cardata-consumer-reviews{
+    width: 75%;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.consumer-reviews-title{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 13%;
+    margin-bottom: 5px;
+}
+
+.consumer-reviews-comment{
+    margin: auto;
+    width: 98%;
+    border: 1px solid lightgray;
+    height: 100%;
+    display: flex;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+    margin-bottom: 6px;
+    flex-direction: column;
+}
+
+.consumer-reviews-rating{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    font-size: 24px; /* Adjust the size of the stars */
+	color: gold; /* Set the color of the filled stars */
+
+}
+
+.consumer-reviews-info{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    text-align: left;
+}
+
+.consumer-reviews-review{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    text-align: left;
+}
+
+
+.Cardata-similar-cars{
+    width: 75%;
+    height: 330px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+.similar-cars{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}

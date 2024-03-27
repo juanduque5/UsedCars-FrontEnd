@@ -1,0 +1,85 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+/*  background-color: gray;*/
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+ 
+  padding: 20px; 
+}
+
+.offer-title {
+  text-align: left;
+/*  margin-left: 100px;*/
+  position: relative;
+  left: 26px;
+  margin-bottom: 20px;
+}
+
+.item-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  gap: 5px;
+  left: 27px;
+/*   margin-left: 100px;*/
+}
+
+.itemO {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  max-height: 170px;
+/*  overflow: hidden; /* Oculta el contenido desbordado */
+
+}
+
+.texto{
+  text-align: left;
+  position: relative;
+  bottom: 30px;
+  font-size: 14px;
+}
+
+
+/*#F0F0ED*/
+.icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #E6F7FF;
+  padding: 5px; /* Opcional, ajusta el padding según tus necesidades */
+}
+
+.icon2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #FEEAF1;
+  padding: 5px; /* Opcional, ajusta el padding según tus necesidades */
+}
+
+.icon3 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #D4F3DC;
+  padding: 5px; /* Opcional, ajusta el padding según tus necesidades */
+}
+
+.icon4 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #FFF8E7;
+  padding: 5px; /* Opcional, ajusta el padding según tus necesidades */
+}
